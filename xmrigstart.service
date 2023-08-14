@@ -1,0 +1,8 @@
+[Unit]
+After=network.target
+
+[Service]
+ExecStart=/home/xmrig/auto.sh
+
+[Install]
+WantedBy=multi-user.target
