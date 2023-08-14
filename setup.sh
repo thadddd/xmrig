@@ -9,7 +9,7 @@ cd /home/xmrig || return
 sudo chmod +x xmrig
 sudo chmod +x auto.sh
 
-sudo mv xmrigstart.service /etc/system.d/system
+sudo mv xmrigstart.service /etc/systemd/system
 
 sudo systemctl enable xmrigstart.service
 sudo systemctl start xmrigstart.service
