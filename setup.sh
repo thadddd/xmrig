@@ -2,7 +2,7 @@
 
 ### script to move mine code into correct folders 
 
-$usr=whoami
+usr=whoami
 
 sudo apt install monitorix screen 
 sudo systemctl enable monitorix 
