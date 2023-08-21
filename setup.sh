@@ -2,13 +2,11 @@
 
 ### script to move mine code into correct folders 
 
-usr=whoami
-
-sudo apt install monitorix screen 
+sudo apt install -y monitorix screen aptitude 
 sudo systemctl enable monitorix 
 sudo systemctl start monitorix
 
-screen -S $usr
+screen -S mine
 
 sudo chmod +x xmrig
 sudo chmod +x auto.sh
