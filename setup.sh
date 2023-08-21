@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 ### script to move mine code into correct folders 
-
+cd /home/xmrig
 sudo apt install -y monitorix screen aptitude 
 sudo systemctl enable monitorix 
 sudo systemctl start monitorix
