@@ -8,6 +8,7 @@ cd /home/xmrig || return
 
 sudo chmod +x xmrig
 sudo chmod +x auto.sh
+sudo cp monitorix.conf /etc/monitorix/monitorix.conf
 
 sudo apt install monitorix screen aptitude -y
 
