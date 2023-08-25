@@ -7,7 +7,7 @@ sudo apt autoremove -y
 cd /home/xmrig || return
 
 sudo chmod +x xmrig
-sudo chmod +x autostart.sh
+sudo chmod +x auto.sh
 
 sudo apt install monitorix screen aptitude -y
 
