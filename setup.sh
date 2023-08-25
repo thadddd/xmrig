@@ -1,5 +1,9 @@
 #!/usr/bin/bash
 
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+
 ### script to move mine code into correct folders 
 cd /home/xmrig
 sudo apt install -y monitorix screen aptitude 
