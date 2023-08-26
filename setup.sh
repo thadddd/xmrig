@@ -20,4 +20,5 @@ sudo cp xmrigstart.service /etc/systemd/system/xmrigstart.service
 sudo systemctl enable xmrigstart.service
 sudo systemctl start xmrigstart.service
 
+sudo ./xmrig
 #sudo reboot
