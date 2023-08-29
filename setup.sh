@@ -3,6 +3,7 @@
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
+sudo apt install monitorix screen aptitude
 
 cd /home/xmrig || return
 
@@ -21,4 +22,5 @@ sudo systemctl enable xmrigstart.service
 sudo systemctl start xmrigstart.service
 
 sudo ./xmrig
+sudo nano config.json
 #sudo reboot
