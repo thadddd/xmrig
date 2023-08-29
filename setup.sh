@@ -3,7 +3,7 @@
 sudo apt update
 sudo apt full-upgrade -y
 sudo apt autoremove -y
-sudo apt install monitorix screen aptitude
+sudo apt install -y monitorix screen aptitude
 
 cd /home/xmrig || return
 
